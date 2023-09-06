@@ -24,6 +24,5 @@ const password = document.getElementById (`output`)
 // 3.
 // prova con stringa
 console.log(`${name + lastname + color}23`)
-
 // stampa in pagina
 password.innerHTML = `${name + lastname + color}23`

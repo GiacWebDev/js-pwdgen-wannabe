@@ -15,11 +15,11 @@ const name = prompt (`inserisci il tuo nome`);
 const lastName = prompt (`inserisci il tuo cognome`);
 const color = prompt (`inserisci il tuo colore preferito`);
 
-console.log(name, lastName, color)
+console.log(name, lastName, color);
 
 // 2.
 // prendo un id dal doc html in cui riportare il risultato
 
-const password = `${name + lastName + color}23`
+const password = `${name + lastName + color}23`;
 
-document.getElementById('output').innerHTML = password
+document.getElementById('output').innerHTML = password;

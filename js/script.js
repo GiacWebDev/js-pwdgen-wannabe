@@ -12,17 +12,14 @@
 
 // 1.
 const name = prompt (`inserisci il tuo nome`);
-const lastname = prompt (`inserisci il tuo cognome`);
+const lastName = prompt (`inserisci il tuo cognome`);
 const color = prompt (`inserisci il tuo colore preferito`);
 
-console.log(name, lastname, color)
+console.log(name, lastName, color)
 
 // 2.
 // prendo un id dal doc html in cui riportare il risultato
-const password = document.getElementById (`output`)
 
-// 3.
-// prova con stringa
-console.log(`${name + lastname + color}23`)
-// stampa in pagina
-password.innerHTML = `${name + lastname + color}23`
+const password = `${name + lastName + color}23`
+
+document.getElementById('output').innerHTML = password
